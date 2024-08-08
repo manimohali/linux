@@ -4,13 +4,13 @@ The permissions on your key files look correct for the private and public key fi
 
 1. **Private Key (`id_newuser`)**:
    ```
-   rw-------  1 ri-13 ri-13 3389 Jul 23 16:18 id_newuser
+   rw-------  1 mani mani 3389 Jul 23 16:18 id_newuser
    ```
    - `rw-------` (600): Read and write permissions for the owner only. This is correct for a private key, as it should be kept secure.
 
 2. **Public Key (`id_newuser.pub`)**:
    ```
-   -rw-r--r--  1 ri-13 ri-13  748 Jul 23 16:18 id_newuser.pub
+   -rw-r--r--  1 mani mani  748 Jul 23 16:18 id_newuser.pub
    ```
    - `rw-r--r--` (644): Read and write permissions for the owner, read-only for others. This is correct for a public key.
 
